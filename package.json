@@ -1,6 +1,6 @@
 {
   "name": "qino",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This extension for Azot lets you to download content from the Qino streaming service.",
   "homepage": "https://qino.live",
   "config": {
