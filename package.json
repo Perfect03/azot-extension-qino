@@ -4,8 +4,8 @@
   "description": "This extension for Azot lets you to download content from the Qino streaming service.",
   "homepage": "https://qino.live",
   "config": {
-    "title": "tv+ Kazakhtelecom",
-    "icon": "https://play-lh.googleusercontent.com/OeZDaxMAdkA-euaYizazA0DYtcfi_2bDyax1bVZJHb6rAC-kUk_tQj8_TVBRCWPped4=w480-h960-rw"
+    "title": "Qino",
+    "icon": "https://play-lh.googleusercontent.com/dacrsHKRpu3QLGGnOSKcZqq_H-Svc8LsveLTonIBy_8xwziLOGWP2bMuHgd7ugvV-g=w480-h960-rw"
   },
   "keywords": [
     "streaming-services"
