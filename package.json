@@ -1,0 +1,34 @@
+{
+  "name": "qino",
+  "version": "1.0.0",
+  "description": "This extension for Azot lets you to download content from the Qino streaming service.",
+  "homepage": "https://qino.live",
+  "config": {
+    "title": "tv+ Kazakhtelecom",
+    "icon": "https://play-lh.googleusercontent.com/OeZDaxMAdkA-euaYizazA0DYtcfi_2bDyax1bVZJHb6rAC-kUk_tQj8_TVBRCWPped4=w480-h960-rw"
+  },
+  "keywords": [
+    "streaming-services"
+  ],
+  "author": {
+    "name": "Perfect03"
+  },
+  "license": "MIT",
+  "main": "dist/main.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "azt dev",
+    "build": "esbuild main.js --bundle --platform=node --outfile=dist/main.js",
+    "test": "vitest"
+  },
+  "engines": {
+    "azot": ">=4.3.10"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.11",
+    "vitest": "^4.0.18",
+    "lifestream-api": "file:./lifestream-api"
+  }
+}

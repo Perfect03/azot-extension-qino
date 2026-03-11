@@ -1,0 +1,3 @@
+[submodule "lifestream-api"]
+	path = lifestream-api
+	url = https://github.com/Perfect03/LifeStream-API.git
