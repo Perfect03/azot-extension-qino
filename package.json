@@ -1,6 +1,6 @@
 {
   "name": "qino",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "This extension for Azot lets you to download content from the Qino streaming service.",
   "homepage": "https://qino.live",
   "config": {
@@ -11,7 +11,8 @@
     "streaming-services"
   ],
   "author": {
-    "name": "Perfect03"
+    "name": "Perfect03",
+    "email": "gleb.work@proton.me"
   },
   "license": "MIT",
   "main": "dist/main.js",
@@ -28,7 +29,7 @@
   },
   "devDependencies": {
     "esbuild": "^0.25.11",
-    "vitest": "^4.0.18",
-    "lifestream-api": "file:./lifestream-api"
+    "vitest": "^3.2.4",
+    "platform24tv-api": "file:./platform24tv-api"
   }
 }
