@@ -31,6 +31,14 @@ jobs:
       - name: Install extension dependencies
         run: npm ci
 
+      - name: Debug platform24tv-api
+        run: |
+          ls -la platform24tv-api
+          echo "--- node_modules link/package ---"
+          ls -la node_modules/platform24tv-api || true
+          echo "--- npm ls ---"
+          npm ls platform24tv-api || true
+
       - name: Get package version
         id: package_version
         run: echo "version=$(node -p "require('./package.json').version")" >> "$GITHUB_OUTPUT"
