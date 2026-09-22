@@ -19,11 +19,17 @@ jobs:
         with:
           token: ${{ secrets.GH_PAT }}
           submodules: recursive
+
       - uses: actions/setup-node@v6
         with:
           node-version: 24
 
-      - run: npm ci
+      - name: Install platform24tv-api dependencies
+        working-directory: platform24tv-api
+        run: npm ci
+
+      - name: Install extension dependencies
+        run: npm ci
 
       - name: Get package version
         id: package_version
